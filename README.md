@@ -20,8 +20,10 @@ After installing, make sure `simple-receive` is under a directory in your PATH e
 Running
 =======
 
-simple-receive --port=8000 --address=0.0.0.0 --uploaddir=/Users/me/uploads
+`simple-receive --port=8000 --address=0.0.0.0 --uploaddir=/Users/me/uploads`
 
-port - Listening port.
-address - Binding address.
-uploaddir - Absolute path to the directory where files should saved (without trailing backslash).
+`port` - Listening port.
+
+`address` - Binding address.
+
+`uploaddir` - Absolute path to the directory where files should saved (without trailing backslash).
