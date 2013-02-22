@@ -1,0 +1,25 @@
+<html>
+<head>
+	<script src="/static/js/jquery.js"></script>
+	<script src="/static/js/jquery.form.js"></script>
+	<script src="/static/js/main.js"></script>
+	<style>
+		body { font-family: 'Palatino', sans-serif; font-size: 15pt; }
+		#center { margin: 25px 0 0 35%; }
+		input { border: 0px; }
+		#btn-upload { background-color: #ddd; font-size: 12pt; padding: 10px; }
+		#btn-upload:hover { background-color: #CCFF99; cursor: pointer; }
+	</style>
+	<title></title>
+</head>
+<body>
+	<div id="center">
+		<h2>Select a file to send</h2>
+		<form action="/upload" id="upload-form" method="POST" enctype="multipart/form-data">
+			<input type="file" name="file"/>
+			<p id="percent"></p>
+			<p><input type="submit" id="btn-upload" value="Send it!"/></p>
+		</form>
+	</div>
+</body>
+</html>

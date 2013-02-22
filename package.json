@@ -1,0 +1,39 @@
+{
+  "name": "simple-receive",
+  "description": "Simple HTTP server that does (just) file uploads.",
+  "keywords": [
+    "javascript",
+    "server",
+    "upload"
+  ],
+  "author": {
+    "name": "Ashish Dubey"
+  },
+  "version": "0.1.1",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.github.com/dash1291/simple-receive/master/LICENSE"
+    }
+  ],
+  "engines": {
+    "node": ">=0.4.0"
+  },
+  "directories": {
+    "lib": "./lib/simple-receive"
+  },
+  "main": "./lib/simple-receive/simple-receive",
+  "bin": {
+    "simple-receive": "./bin/simple-receive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dash1291/simple-receive.git"
+  },
+  "dependencies": {
+    "optimist": ">=0.3.5",
+    "nunjucks": ">=0.1.8a",
+    "uglify-js": ">=1.0.0",
+    "express": ">=3.1.0"
+  }
+}
